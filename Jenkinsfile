@@ -19,5 +19,8 @@ node('jenkins-slave1'){
      stage('Dockerization'){
       echo "Dockerization"  
     }
+     stage('verification'){
+      echo "verification"  
+    }
     
 }
