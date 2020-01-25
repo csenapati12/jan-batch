@@ -1,4 +1,4 @@
-node(){
+node('jenkins-slave1'){
     
     stage('cloning the code'){
       echo "Cloning"  
